@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Digestive Narrow';
+    src:    url('Narrow/Digestive_v0.8-Narrow_web.eot');
+    src:    url('Narrow/Digestive_v0.8-Narrow_web.eot?#iefix') format('embedded-opentype'),
+            url('Narrow/Digestive_v0.8-Narrow_web.woff') format('woff'),
+            url('Narrow/Digestive_v0.8-Narrow_web.woff2') format('woff2'),
+            url('Narrow/Digestive_v0.8-Narrow_web.ttf') format('truetype'),
+            url('Narrow/Digestive_v0.8-Narrow_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Digestive Condensed';
+    src:    url('Condensed/Digestive_v0.8-Condensed_web.eot');
+    src:    url('Condensed/Digestive_v0.8-Condensed_web.eot?#iefix') format('embedded-opentype'),
+            url('Condensed/Digestive_v0.8-Condensed_web.woff') format('woff'),
+            url('Condensed/Digestive_v0.8-Condensed_web.woff2') format('woff2'),
+            url('Condensed/Digestive_v0.8-Condensed_web.ttf') format('truetype'),
+            url('Condensed/Digestive_v0.8-Condensed_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Digestive Ultra Condensed';
+    src:    url('UltraCondensed/Digestive_v0.8-Ultra_Condensed_web.eot');
+    src:    url('UltraCondensed/Digestive_v0.8-Ultra_Condensed_web.eot?#iefix') format('embedded-opentype'),
+            url('UltraCondensed/Digestive_v0.8-Ultra_Condensed_web.woff') format('woff'),
+            url('UltraCondensed/Digestive_v0.8-Ultra_Condensed_web.woff2') format('woff2'),
+            url('UltraCondensed/Digestive_v0.8-Ultra_Condensed_web.ttf') format('truetype'),
+            url('UltraCondensed/Digestive_v0.8-Ultra_Condensed_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Digestive Normal';
+    src:    url('Normal/Digestive_v0.8-Normal_web.eot');
+    src:    url('Normal/Digestive_v0.8-Normal_web.eot?#iefix') format('embedded-opentype'),
+            url('Normal/Digestive_v0.8-Normal_web.woff') format('woff'),
+            url('Normal/Digestive_v0.8-Normal_web.woff2') format('woff2'),
+            url('Normal/Digestive_v0.8-Normal_web.ttf') format('truetype'),
+            url('Normal/Digestive_v0.8-Normal_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Digestive Compressed';
+    src:    url('Compressed/Digestive_v0.8-Compressed_web.eot');
+    src:    url('Compressed/Digestive_v0.8-Compressed_web.eot?#iefix') format('embedded-opentype'),
+            url('Compressed/Digestive_v0.8-Compressed_web.woff') format('woff'),
+            url('Compressed/Digestive_v0.8-Compressed_web.woff2') format('woff2'),
+            url('Compressed/Digestive_v0.8-Compressed_web.ttf') format('truetype'),
+            url('Compressed/Digestive_v0.8-Compressed_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
