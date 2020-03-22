@@ -21,7 +21,7 @@ export const BosqueCarousel = () => {
           node {
             relativePath
             childImageSharp {
-              fluid(maxWidth: 1800, quality: 100) {
+              fluid(maxWidth: 2200, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
