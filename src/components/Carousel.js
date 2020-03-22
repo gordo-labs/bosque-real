@@ -34,7 +34,7 @@ export const BosqueCarousel = () => {
 
   const ImageContainer = styled.div`
     width: 100vw;
-    height: calc(100vh - 10px);
+    //max-height: calc(100vh - 10px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,8 +42,7 @@ export const BosqueCarousel = () => {
     padding-bottom: 20px;
     .gatsby-image-wrapper {
       width: calc(100% - 40px);
-      height: 90%;
-      
+      max-height: calc(100vh - 40px);
       picture {
         img {
           object-fit: contain !important;
