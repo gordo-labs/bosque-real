@@ -9,18 +9,18 @@ export default function Layout(props) {
   return (
     <section
       className={`${layoutStyles.layout} ${
-        props.page === "info" && 
+        props.page === "info" &&
         layoutStyles.info_page}`}
       style={{
         backgroundColor: props.bgColor,
       }}
     >
-      <Helmet>
+{/*      <Helmet>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
       </Helmet>
-      <Header page={props.page} title={title} />
+      <Header page={props.page} title={title} />*/}
       <div className={layoutStyles.content}>{props.children}</div>
     </section>
   )
