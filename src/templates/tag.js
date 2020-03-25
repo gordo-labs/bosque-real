@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 class Post extends Component {
   render() {
     const post = this.props.data.wordpressPost
-    
+
     return (
       <>
         <h1>{post.title}</h1>
@@ -23,16 +23,25 @@ Post.propTypes = {
 export default Post
 
 export const postQuery = graphql`
-    query($id: String!) {
-        wordpressPost(id: { eq: $id }) {
-            title
-            content
+  query WordPressPostTag($id: ID!, $page: Int) {
+    wordPressPostTag(id: $id) {
+      title
+      belongsTo(page: $page, perPage: 10) @paginate {
+        pageInfo {
+          totalPages
+          currentPage
         }
-        site {
-            siteMetadata {
-                title
-                description
+        edges {
+          node {
+            ... on WordPressPost {
+              id
+              title
+              path
+              excerpt
             }
+          }
         }
+      }
     }
+  }
 `

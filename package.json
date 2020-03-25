@@ -17,9 +17,11 @@
   },
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.13.12-alpha.0",
+    "@material-ui/core": "^4.9.7",
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.13.9",
     "gatsby-image": "^2.3.0",
+    "gatsby-plugin-google-analytics": "^2.2.0",
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sass": "^2.1.0",
     "gatsby-plugin-sharp": "^2.5.1",
